@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  /* background-color: olive; */
+
+  background: linear-gradient(to right, red, yellow, green);
+}
+
+.container {
+  height: 75vh;
+  width: 100vw;
+}
+
+.trafil-light-con {
+  margin-top: 2rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.red,
+.yellow,
+.green {
+  height: 8rem;
+  width: 8rem;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.msgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  display: inline-block;
+  margin: auto;
+}
