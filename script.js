@@ -9,6 +9,7 @@ async function trafficSignal() {
     h2.innerText = "STOP";
     h2.style.backgroundColor = "red";
     green.style.backgroundColor = "white";
+    yellow.style.backgroundColor = "white";
   }, 0);
 
   await setTimeout(() => {
